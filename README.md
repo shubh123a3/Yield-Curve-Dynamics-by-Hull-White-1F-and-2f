@@ -1,5 +1,9 @@
 # Yield Curve Dynamics using Hull-White 1F and 2F Models
 
+
+https://github.com/user-attachments/assets/b039d0e3-8ae8-454b-a0e4-3fe0ddc8d4ca
+
+
 ## Introduction
 This project explores yield curve dynamics using the **Hull-White One-Factor (1F) and Two-Factor (2F) models**. These models describe the evolution of short-term interest rates and are widely used in interest rate modeling and derivative pricing.
 
