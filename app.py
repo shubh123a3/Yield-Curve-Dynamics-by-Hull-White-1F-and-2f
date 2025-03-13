@@ -94,7 +94,7 @@ def HW_A(lambd, eta, P0T, T1, T2):
     zGrid = np.linspace(0.0, tau, 250)
     B_r = lambda tau: 1.0 / lambd * (np.exp(-lambd * tau) - 1.0)
     theta = HW_theta(lambd, eta, P0T)
-    temp1 = lambd * integrate.trapz(theta(T2 - zGrid) * B_r(zGrid), zGrid)
+    temp1 = lambd * np.trapz(theta(T2 - zGrid) * B_r(zGrid), zGrid)# change this
 
     temp2 = eta * eta / (4.0 * np.power(lambd, 3.0)) * (
                 np.exp(-2.0 * lambd * tau) * (4 * np.exp(lambd * tau) - 1.0) - 3.0) + eta * eta * tau / (
